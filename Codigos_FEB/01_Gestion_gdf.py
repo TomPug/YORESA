@@ -49,7 +49,7 @@ def guardar_gdf(ruta_xls,gdf,tipo):
         raise ValueError("Tipo no soportado. Use 'shp', 'geojson', 'gpkg' o 'gdb'.")
 
 def main():
-    ruta_xls = 'ruta/al/archivo.xlsx'
+    ruta_xls = 'ruta/al/archivo.xlsx' # Reemplazar con la ruta real del archivo Excel que nos paso Cristina
     tipo = 'geojson'  # Reemplazar con la ruta real del archivo Excel
     gdf = xls_to_gdf(ruta_xls)
     
