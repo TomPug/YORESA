@@ -50,6 +50,6 @@ writeRaster(
   filename = file.path(rasters_root, "corr_stack"),
   filetype = "ENVI",  
   datatype = "INT2S",
-  gdal = c("COMPRESS=DEFLATE"),
+  gdal = c("COMPRESS=LZW"),
   overwrite = TRUE
 )
